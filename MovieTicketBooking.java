@@ -170,7 +170,7 @@ class Movie extends User{
 			}
 			else if(mc==2 && tc==2){
 				System.out.println("Nanna Prakara(Kannada) is showing at your chosen theatre following shows");
-				System.out.println("1.Afternoon show (13:00PM to 15:30PM) \n2. Special Show(19:00 PM to 21:30PM)");
+				System.out.println("1.Afternoon show (13:00PM to 15:30PM) \n 2.2. Special Show(19:00 PM to 21:30PM)");
 				System.out.println("Enter corresponding timing");
 				timing=s.nextInt();
 				System.out.println("For alternate show timings, retry with different theatre");
